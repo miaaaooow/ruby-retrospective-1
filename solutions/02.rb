@@ -1,4 +1,5 @@
 class Song
+
   attr_accessor :name, :artist, :genre, :subgenre, :tags
 
   def initialize(name, artist, genre, subgenre="", tags)

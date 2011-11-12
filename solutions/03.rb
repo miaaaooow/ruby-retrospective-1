@@ -144,7 +144,7 @@ class PercentCoupon
   end
 
   def to_s
-    @name + " - " + @percent.to_s + "% off"
+    "#{@name} - #{@percent}% off"
   end
 
   def apply_to_total(total)
